@@ -1,7 +1,62 @@
-introduction:
-Goal:
-Objective:
-Syllabus:
+# Web Engineering Notes (React Based)
+
+A structured, React-centred web engineering knowledge base. It runs from web
+foundations (HTML, CSS, JavaScript, TypeScript) through React, Next.js, backend,
+production engineering, and AI-assisted frontend topics, ending in a master
+project. There are 49 numbered modules in total.
+
+## Introduction
+
+Each module lives in its own numbered folder (for example
+`01-web-foundations`, `02-css`). A module has one deep-dive source file,
+`core.md`, which is split verbatim into one note per topic plus a summary file.
+`core.md` is the local source of truth and is intentionally gitignored; the
+per-topic files and the summary are what get committed.
+
+Modules `01` through `04` are complete. Modules `05` through `49` have their
+topic file structure in place and are filled in as their `core.md` deep dives
+land.
+
+## Goal
+
+Build one complete, consistent, interview- and production-ready reference for
+modern React-based web engineering, from fundamentals to advanced frontier
+topics.
+
+## Objectives
+
+- Cover every topic in depth: subtopics, syntax, real-world examples, tricks,
+  and deal-breakers.
+- Keep one topic per file so notes stay navigable and reviewable.
+- Never lose content when splitting: topic files mirror `core.md` exactly, with
+  no summarising, rewording, or reduction.
+- Keep history clean with one commit per module folder.
+- Finish all 49 modules plus the master project in `49-master-project`.
+
+## How to Use
+
+1. Follow the numbered order, starting at `01-web-foundations`.
+2. Inside a module, read the `*_summary.md` first for the deal-breaker
+   checklist, then go topic by topic (`01.01`, `01.02`, and so on).
+3. Code blocks, tables, and checklists in the topic files are the full content
+   from that module's `core.md` deep dive.
+
+## Conventions
+
+- `core.md` is gitignored and never committed. It stays intact as the source.
+- Each `## X.Y` section of `core.md` maps to exactly one topic file.
+- The module title, `## Summary` section, and trailing pointer line map to the
+  `*_summary.md` file.
+- One commit per folder; `AGENT.md` changes get their own commit.
+- Commit messages are plain, with no AI tags and no emoji.
+- See `AGENT.md` for the full contributor rules.
+
+## Progress
+
+- Complete: `01-web-foundations`, `02-css`, `03-javascript`, `04-typescript`.
+- Pending core content: `05` through `49` (structure ready, placeholder notes).
+
+## Syllabus
 ```txt
 web-engineering-handbook/
 ├── README.md
