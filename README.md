@@ -3,7 +3,7 @@
 A structured, React-centred web engineering knowledge base. It runs from web
 foundations (HTML, CSS, JavaScript, TypeScript) through React, Next.js, backend,
 production engineering, and AI-assisted frontend topics, ending in a master
-project. There are 49 numbered modules in total.
+project. There are 50 numbered modules in total.
 
 ## Introduction
 
@@ -13,9 +13,9 @@ Each module lives in its own numbered folder (for example
 `core.md` is the local source of truth and is intentionally gitignored; the
 per-topic files and the summary are what get committed.
 
-Modules `01` through `04` are complete. Modules `05` through `49` have their
-topic file structure in place and are filled in as their `core.md` deep dives
-land.
+All modules `01` through `50` are complete. Every topic file is filled in,
+including the master project in `49-master-project` and the forward-looking
+`50-next-steps` chapter that closes out the syllabus.
 
 ## Goal
 
@@ -31,7 +31,8 @@ topics.
 - Never lose content when splitting: topic files mirror `core.md` exactly, with
   no summarising, rewording, or reduction.
 - Keep history clean with one commit per module folder.
-- Finish all 49 modules plus the master project in `49-master-project`.
+- Finish all 50 modules, including the master project in `49-master-project`
+  and the next-steps chapter in `50-next-steps`.
 
 ## How to Use
 
@@ -45,21 +46,32 @@ topics.
 
 - `core.md` is gitignored and never committed. It stays intact as the source.
 - Each `## X.Y` section of `core.md` maps to exactly one topic file.
-- The module title, `## Summary` section, and trailing pointer line map to the
-  `*_summary.md` file.
-- One commit per folder; `AGENT.md` changes get their own commit.
+- The module title and `## Summary` section map to the `*_summary.md` file.
+- One commit per folder for chapter content work; a repo-wide uniform change
+  (text substitution, standard footer, formatting sweep) is a single commit.
+- `AGENT.md` changes get their own commit.
 - Commit messages are plain, with no AI tags and no emoji.
 - See `AGENT.md` for the full contributor rules.
 
 ## Progress
 
-- Complete: `01-web-foundations`, `02-css`, `03-javascript`, `04-typescript`.
-- Pending core content: `05` through `49` (structure ready, placeholder notes).
+- Complete: every module from `01-web-foundations` through `50-next-steps`.
+- `49-master-project` is the capstone build; `50-next-steps` maps what comes after
+  the numbered syllabus.
+
+## Disclaimer and License
+
+This is AI-assisted, self-educational material and is not intended for commercial
+use. See [DISCLAIMER.md](DISCLAIMER.md) for accuracy caveats and how to contribute,
+and [LICENSE.md](LICENSE.md) for the terms. Cross-check anything here against
+official documentation and other resources before relying on it.
 
 ## Syllabus
 ```txt
 web-engineering-handbook/
 ├── README.md
+├── DISCLAIMER.md
+├── LICENSE.md
 │
 ├── 01-web-foundations/
 │   ├── 01.01-html.md
@@ -723,37 +735,54 @@ web-engineering-handbook/
 │   ├── 48.15-observability.md
 │   └── 48.16-distributed-systems.md
 │
-└── 49-master-project/
-    ├── 49.01-react.md
-    ├── 49.02-typescript.md
-    ├── 49.03-nextjs.md
-    ├── 49.04-server-components.md
-    ├── 49.05-client-components.md
-    ├── 49.06-react-compiler.md
-    ├── 49.07-tailwind.md
-    ├── 49.08-design-system.md
-    ├── 49.09-tanstack-query.md
-    ├── 49.10-postgresql.md
-    ├── 49.11-redis.md
-    ├── 49.12-authentication.md
-    ├── 49.13-authorization.md
-    ├── 49.14-ai-chat.md
-    ├── 49.15-rag.md
-    ├── 49.16-ai-agents.md
-    ├── 49.17-generative-ui.md
-    ├── 49.18-websockets.md
-    ├── 49.19-collaborative-editing.md
-    ├── 49.20-indexeddb.md
-    ├── 49.21-offline-first.md
-    ├── 49.22-crdt.md
-    ├── 49.23-testing.md
-    ├── 49.24-playwright.md
-    ├── 49.25-vitest.md
-    ├── 49.26-ci-cd.md
-    ├── 49.27-docker.md
-    ├── 49.28-observability.md
-    ├── 49.29-performance-optimization.md
-    ├── 49.30-security.md
-    ├── 49.31-cloud-deployment.md
-    └── 49.32-open-source-contribution.md
+├── 49-master-project/
+│   ├── 49.01-react.md
+│   ├── 49.02-typescript.md
+│   ├── 49.03-nextjs.md
+│   ├── 49.04-server-components.md
+│   ├── 49.05-client-components.md
+│   ├── 49.06-react-compiler.md
+│   ├── 49.07-tailwind.md
+│   ├── 49.08-design-system.md
+│   ├── 49.09-tanstack-query.md
+│   ├── 49.10-postgresql.md
+│   ├── 49.11-redis.md
+│   ├── 49.12-authentication.md
+│   ├── 49.13-authorization.md
+│   ├── 49.14-ai-chat.md
+│   ├── 49.15-rag.md
+│   ├── 49.16-ai-agents.md
+│   ├── 49.17-generative-ui.md
+│   ├── 49.18-websockets.md
+│   ├── 49.19-collaborative-editing.md
+│   ├── 49.20-indexeddb.md
+│   ├── 49.21-offline-first.md
+│   ├── 49.22-crdt.md
+│   ├── 49.23-testing.md
+│   ├── 49.24-playwright.md
+│   ├── 49.25-vitest.md
+│   ├── 49.26-ci-cd.md
+│   ├── 49.27-docker.md
+│   ├── 49.28-observability.md
+│   ├── 49.29-performance-optimization.md
+│   ├── 49.30-security.md
+│   ├── 49.31-cloud-deployment.md
+│   └── 49.32-open-source-contribution.md
+│
+└── 50-next-steps/
+    ├── 50.01-high-level-design.md
+    ├── 50.02-low-level-design.md
+    ├── 50.03-distributed-systems.md
+    ├── 50.04-networking-and-protocols.md
+    ├── 50.05-devops-and-sre.md
+    ├── 50.06-cloud-and-infrastructure-architecture.md
+    ├── 50.07-database-internals.md
+    ├── 50.08-data-engineering-and-big-data.md
+    ├── 50.09-mlops-and-ai-infrastructure.md
+    ├── 50.10-media-processing.md
+    ├── 50.11-performance-engineering.md
+    ├── 50.12-security-engineering.md
+    ├── 50.13-platform-and-developer-experience.md
+    ├── 50.14-engineering-leadership-and-career.md
+    └── 50_summary.md
 ```
