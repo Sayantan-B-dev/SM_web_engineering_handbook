@@ -81,7 +81,8 @@ web-engineering-handbook/
 │   ├── 01.05-aria.md
 │   ├── 01.06-seo.md
 │   ├── 01.07-dom.md
-│   └── 01.08-browser-rendering-pipeline.md
+│   ├── 01.08-browser-rendering-pipeline.md
+│   └── 01_summary.md
 │
 ├── 02-css/
 │   ├── 02.01-css-fundamentals.md
@@ -96,7 +97,8 @@ web-engineering-handbook/
 │   ├── 02.10-transitions.md
 │   ├── 02.11-css-architecture.md
 │   ├── 02.12-modern-css.md
-│   └── 02.13-accessible-ui.md
+│   ├── 02.13-accessible-ui.md
+│   └── 02_summary.md
 │
 ├── 03-javascript/
 │   ├── 03.01-variables.md
@@ -126,7 +128,8 @@ web-engineering-handbook/
 │   ├── 03.25-error-handling.md
 │   ├── 03.26-memory-management.md
 │   ├── 03.27-garbage-collection.md
-│   └── 03.28-javascript-execution-model.md
+│   ├── 03.28-javascript-execution-model.md
+│   └── 03_summary.md
 │
 ├── 04-typescript/
 │   ├── 04.01-types.md
@@ -143,7 +146,8 @@ web-engineering-handbook/
 │   ├── 04.12-mapped-types.md
 │   ├── 04.13-conditional-types.md
 │   ├── 04.14-advanced-generics.md
-│   └── 04.15-type-safe-apis.md
+│   ├── 04.15-type-safe-apis.md
+│   └── 04_summary.md
 │
 ├── 05-react-fundamentals/
 │   ├── 05.01-jsx.md
@@ -159,7 +163,8 @@ web-engineering-handbook/
 │   ├── 05.11-uncontrolled-components.md
 │   ├── 05.12-composition.md
 │   ├── 05.13-children.md
-│   └── 05.14-component-design.md
+│   ├── 05.14-component-design.md
+│   └── 05_summary.md
 │
 ├── 06-react-hooks/
 │   ├── 06.01-usestate.md
@@ -169,7 +174,9 @@ web-engineering-handbook/
 │   ├── 06.05-usecallback.md
 │   ├── 06.06-usereducer.md
 │   ├── 06.07-usecontext.md
-│   └── 06.08-custom-hooks.md
+│   ├── 06.08-custom-hooks.md
+│   ├── 06.09-rules-of-hooks.md
+│   └── 06_summary.md
 │
 ├── 07-react-mental-models/
 │   ├── 07.01-rendering.md
@@ -184,7 +191,8 @@ web-engineering-handbook/
 │   ├── 07.10-effects-vs-events.md
 │   ├── 07.11-derived-state.md
 │   ├── 07.12-state-ownership.md
-│   └── 07.13-composition.md
+│   ├── 07.13-composition.md
+│   └── 07_summary.md
 │
 ├── 08-react-internals/
 │   ├── 08.01-virtual-dom.md
@@ -198,7 +206,8 @@ web-engineering-handbook/
 │   ├── 08.09-streaming.md
 │   ├── 08.10-hydration.md
 │   ├── 08.11-selective-hydration.md
-│   └── 08.12-react-scheduling.md
+│   ├── 08.12-react-scheduling.md
+│   └── 08_summary.md
 │
 ├── 09-react-compiler/
 │   ├── 09.01-react-compiler.md
@@ -209,7 +218,8 @@ web-engineering-handbook/
 │   ├── 09.06-compiler-configuration.md
 │   ├── 09.07-compiler-limitations.md
 │   ├── 09.08-manual-memoization.md
-│   └── 09.09-compiler-performance.md
+│   ├── 09.09-compiler-performance.md
+│   └── 09_summary.md
 │
 ├── 10-react-performance/
 │   ├── 10.01-react-profiler.md
@@ -227,7 +237,8 @@ web-engineering-handbook/
 │   ├── 10.13-font-optimization.md
 │   ├── 10.14-cpu-bottlenecks.md
 │   ├── 10.15-network-bottlenecks.md
-│   └── 10.16-core-web-vitals.md
+│   ├── 10.16-core-web-vitals.md
+│   └── 10_summary.md
 │
 ├── 11-modern-react/
 │   ├── 11.01-react-server-components.md
@@ -241,7 +252,8 @@ web-engineering-handbook/
 │   ├── 11.09-server-actions.md
 │   ├── 11.10-streaming.md
 │   ├── 11.11-suspense.md
-│   └── 11.12-hydration.md
+│   ├── 11.12-hydration.md
+│   └── 11_summary.md
 │
 ├── 12-nextjs/
 │   ├── 12.01-nextjs-fundamentals.md
@@ -269,7 +281,16 @@ web-engineering-handbook/
 │   ├── 12.23-request-memoization.md
 │   ├── 12.24-cache-invalidation.md
 │   ├── 12.25-nextjs-performance.md
-│   └── 12.26-deployment.md
+│   ├── 12.26-deployment.md
+│   ├── 12.27-server-boundaries.md
+│   ├── 12.28-client-boundaries.md
+│   ├── 12.29-use-client.md
+│   ├── 12.30-use-server.md
+│   ├── 12.31-serialization.md
+│   ├── 12.32-suspense.md
+│   ├── 12.33-hydration.md
+│   ├── 12.34-streaming-route-handlers.md
+│   └── 12_summary.md
 │
 ├── 13-state-management/
 │   ├── 13.01-local-state.md
@@ -284,7 +305,8 @@ web-engineering-handbook/
 │   ├── 13.10-redux-toolkit.md
 │   ├── 13.11-zustand.md
 │   ├── 13.12-jotai.md
-│   └── 13.13-swr.md
+│   ├── 13.13-swr.md
+│   └── 13_summary.md
 │
 ├── 14-tanstack/
 │   ├── 14.01-tanstack-query.md
@@ -300,7 +322,8 @@ web-engineering-handbook/
 │   ├── 14.11-infinite-queries.md
 │   ├── 14.12-prefetching.md
 │   ├── 14.13-tanstack-router.md
-│   └── 14.14-tanstack-start.md
+│   ├── 14.14-tanstack-start.md
+│   └── 14_summary.md
 │
 ├── 15-routing/
 │   ├── 15.01-react-router.md
@@ -310,7 +333,14 @@ web-engineering-handbook/
 │   ├── 15.05-loaders.md
 │   ├── 15.06-actions.md
 │   ├── 15.07-route-boundaries.md
-│   └── 15.08-tanstack-router.md
+│   ├── 15.08-tanstack-router.md
+│   ├── 15.09-routing-fundamentals.md
+│   ├── 15.10-tanstack-router-file-based-vs-code-based.md
+│   ├── 15.11-tanstack-router-route-loaders.md
+│   ├── 15.12-search-params-validation.md
+│   ├── 15.13-preloading.md
+│   ├── 15.14-react-router-vs-tanstack-router-comparison.md
+│   └── 15_summary.md
 │
 ├── 16-frontend-architecture/
 │   ├── 16.01-component-architecture.md
@@ -327,7 +357,9 @@ web-engineering-handbook/
 │   ├── 16.12-api-abstraction.md
 │   ├── 16.13-domain-driven-frontend.md
 │   ├── 16.14-frontend-scalability.md
-│   └── 16.15-multi-team-architecture.md
+│   ├── 16.15-multi-team-architecture.md
+│   ├── 16.16-architecture-fundamentals.md
+│   └── 16_summary.md
 │
 ├── 17-ui-design-systems/
 │   ├── 17.01-design-systems.md
@@ -339,7 +371,9 @@ web-engineering-handbook/
 │   ├── 17.07-shadcn-ui.md
 │   ├── 17.08-tailwind-css.md
 │   ├── 17.09-css-modules.md
-│   └── 17.10-css-in-js.md
+│   ├── 17.10-css-in-js.md
+│   ├── 17.11-design-systems-deep-dive.md
+│   └── 17_summary.md
 │
 ├── 18-forms-validation/
 │   ├── 18.01-react-hook-form.md
@@ -347,7 +381,15 @@ web-engineering-handbook/
 │   ├── 18.03-form-validation.md
 │   ├── 18.04-zod.md
 │   ├── 18.05-schema-validation.md
-│   └── 18.06-type-safe-forms.md
+│   ├── 18.06-type-safe-forms.md
+│   ├── 18.07-the-form-problem.md
+│   ├── 18.08-tanstack-form.md
+│   ├── 18.09-conform.md
+│   ├── 18.10-form-best-practices.md
+│   ├── 18.11-multi-step-forms.md
+│   ├── 18.12-accessibility.md
+│   ├── 18.13-server-side-validation.md
+│   └── 18_summary.md
 │
 ├── 19-testing/
 │   ├── 19.01-unit-testing.md
@@ -359,7 +401,10 @@ web-engineering-handbook/
 │   ├── 19.07-react-testing-library.md
 │   ├── 19.08-playwright.md
 │   ├── 19.09-mocking.md
-│   └── 19.10-contract-testing.md
+│   ├── 19.10-contract-testing.md
+│   ├── 19.11-the-testing-pyramid-and-strategy.md
+│   ├── 19.12-testing-react-server-components.md
+│   └── 19_summary.md
 │
 ├── 20-production-engineering/
 │   ├── 20.01-build-systems.md
@@ -376,7 +421,14 @@ web-engineering-handbook/
 │   ├── 20.12-reverse-proxies.md
 │   ├── 20.13-vercel.md
 │   ├── 20.14-cloudflare.md
-│   └── 20.15-aws-fundamentals.md
+│   ├── 20.15-aws-fundamentals.md
+│   ├── 20.16-production-engineering-fundamentals.md
+│   ├── 20.17-observability.md
+│   ├── 20.18-observability-error-monitoring.md
+│   ├── 20.19-observability-performance-monitoring.md
+│   ├── 20.20-observability-user-monitoring.md
+│   ├── 20.21-observability-grafana-faro.md
+│   └── 20_summary.md
 │
 ├── 21-observability/
 │   ├── 21.01-logging.md
@@ -390,7 +442,10 @@ web-engineering-handbook/
 │   ├── 21.09-grafana-faro.md
 │   ├── 21.10-opentelemetry.md
 │   ├── 21.11-alloy-collector.md
-│   └── 21.12-sentry.md
+│   ├── 21.12-sentry.md
+│   ├── 21.13-observability-fundamentals.md
+│   ├── 21.14-observability-putting-it-all-together.md
+│   └── 21_summary.md
 │
 ├── 22-browser-engineering/
 │   ├── 22.01-web-apis.md
@@ -405,7 +460,18 @@ web-engineering-handbook/
 │   ├── 22.10-web-streams.md
 │   ├── 22.11-notifications-api.md
 │   ├── 22.12-permissions-api.md
-│   └── 22.13-file-apis.md
+│   ├── 22.13-file-apis.md
+│   ├── 22.14-browser-engineering-fundamentals.md
+│   ├── 22.15-multi-process-architecture.md
+│   ├── 22.16-rendering-pipeline.md
+│   ├── 22.17-javascript-engine-internals.md
+│   ├── 22.18-event-loop.md
+│   ├── 22.19-networking.md
+│   ├── 22.20-storage-apis.md
+│   ├── 22.21-performance-apis.md
+│   ├── 22.22-security.md
+│   ├── 22.23-browser-engineering-putting-it-all-together.md
+│   └── 22_summary.md
 │
 ├── 23-web-workers/
 │   ├── 23.01-worker-lifecycle.md
@@ -413,7 +479,14 @@ web-engineering-handbook/
 │   ├── 23.03-cpu-heavy-workloads.md
 │   ├── 23.04-off-main-thread-computation.md
 │   ├── 23.05-shared-memory.md
-│   └── 23.06-worker-architecture.md
+│   ├── 23.06-worker-architecture.md
+│   ├── 23.07-web-workers-fundamentals.md
+│   ├── 23.08-worker-types.md
+│   ├── 23.09-structured-clone-and-transferable-objects.md
+│   ├── 23.10-sharedarraybuffer.md
+│   ├── 23.11-webassembly-plus-workers.md
+│   ├── 23.12-worker-performance-and-profiling.md
+│   └── 23_summary.md
 │
 ├── 24-webassembly/
 │   ├── 24.01-wasm-fundamentals.md
@@ -421,7 +494,14 @@ web-engineering-handbook/
 │   ├── 24.03-wasm-performance.md
 │   ├── 24.04-wasm-use-cases.md
 │   ├── 24.05-browser-computation.md
-│   └── 24.06-compute-intensive-applications.md
+│   ├── 24.06-compute-intensive-applications.md
+│   ├── 24.07-webassembly-3-0.md
+│   ├── 24.08-react-plus-wasm-integration.md
+│   ├── 24.09-tooling-and-language-support.md
+│   ├── 24.10-wasi-and-component-model.md
+│   ├── 24.11-debugging-and-observability.md
+│   ├── 24.12-limitations-and-real-world-deal-breakers.md
+│   └── 24_summary.md
 │
 ├── 25-real-time-applications/
 │   ├── 25.01-websockets.md
@@ -431,7 +511,10 @@ web-engineering-handbook/
 │   ├── 25.05-reconnection.md
 │   ├── 25.06-heartbeats.md
 │   ├── 25.07-backpressure.md
-│   └── 25.08-real-time-synchronization.md
+│   ├── 25.08-real-time-synchronization.md
+│   ├── 25.09-real-time-fundamentals.md
+│   ├── 25.10-real-time-collaboration-architecture.md
+│   └── 25_summary.md
 │
 ├── 26-offline-first-local-first/
 │   ├── 26.01-offline-first-architecture.md
@@ -442,7 +525,9 @@ web-engineering-handbook/
 │   ├── 26.06-optimistic-updates.md
 │   ├── 26.07-synchronization.md
 │   ├── 26.08-conflict-resolution.md
-│   └── 26.09-offline-caching.md
+│   ├── 26.09-offline-caching.md
+│   ├── 26.10-offline-first-vs-local-first-the-fundamental-distinction.md
+│   └── 26_summary.md
 │
 ├── 27-crdt/
 │   ├── 27.01-crdt-fundamentals.md
@@ -451,7 +536,16 @@ web-engineering-handbook/
 │   ├── 27.04-operational-transformation.md
 │   ├── 27.05-crdt-vs-ot.md
 │   ├── 27.06-peer-to-peer-synchronization.md
-│   └── 27.07-distributed-state.md
+│   ├── 27.07-distributed-state.md
+│   ├── 27.08-the-two-foundational-approaches-state-based-vs-operation-based.md
+│   ├── 27.09-state-based-crdts-deep-dive.md
+│   ├── 27.10-operation-based-crdts-deep-dive.md
+│   ├── 27.11-delta-state-crdts.md
+│   ├── 27.12-pure-operation-based-crdts.md
+│   ├── 27.13-crdt-libraries-and-ecosystem.md
+│   ├── 27.14-crdt-performance-and-optimization.md
+│   ├── 27.15-crdt-limitations-and-challenges.md
+│   └── 27_summary.md
 │
 ├── 28-ai-fundamentals/
 │   ├── 28.01-llms.md
@@ -465,7 +559,9 @@ web-engineering-handbook/
 │   ├── 28.09-function-calling.md
 │   ├── 28.10-structured-outputs.md
 │   ├── 28.11-agents.md
-│   └── 28.12-agent-architecture.md
+│   ├── 28.12-agent-architecture.md
+│   ├── 28.13-the-ai-landscape-for-web-developers.md
+│   └── 28_summary.md
 │
 ├── 29-ai-plus-react/
 │   ├── 29.01-ai-chat-interfaces.md
@@ -477,7 +573,9 @@ web-engineering-handbook/
 │   ├── 29.07-ai-agents.md
 │   ├── 29.08-agent-interfaces.md
 │   ├── 29.09-tool-use-interfaces.md
-│   └── 29.10-ai-native-frontend-architecture.md
+│   ├── 29.10-ai-native-frontend-architecture.md
+│   ├── 29.11-the-ai-native-react-stack.md
+│   └── 29_summary.md
 │
 ├── 30-generative-ui/
 │   ├── 30.01-generative-ui.md
@@ -486,7 +584,18 @@ web-engineering-handbook/
 │   ├── 30.04-tool-driven-ui.md
 │   ├── 30.05-dynamic-components.md
 │   ├── 30.06-model-to-ui-protocols.md
-│   └── 30.07-ai-interaction-design.md
+│   ├── 30.07-ai-interaction-design.md
+│   ├── 30.08-json-render.md
+│   ├── 30.09-a2ui.md
+│   ├── 30.10-streaming-json-react-server-components.md
+│   ├── 30.11-declarative-generative-ui.md
+│   ├── 30.12-controlled-generative-ui.md
+│   ├── 30.13-open-ended-generative-ui.md
+│   ├── 30.14-component-registry.md
+│   ├── 30.15-security.md
+│   ├── 30.16-performance-and-layout-shift.md
+│   ├── 30.17-accessibility.md
+│   └── 30_summary.md
 │
 ├── 31-ai-assisted-development/
 │   ├── 31.01-github-copilot.md
@@ -499,7 +608,15 @@ web-engineering-handbook/
 │   ├── 31.08-ai-debugging.md
 │   ├── 31.09-ai-software-development-lifecycle.md
 │   ├── 31.10-vibe-coding.md
-│   └── 31.11-ai-developer-workflows.md
+│   ├── 31.11-ai-developer-workflows.md
+│   ├── 31.12-the-ai-assisted-development-landscape.md
+│   ├── 31.13-openai-codex.md
+│   ├── 31.14-devin.md
+│   ├── 31.15-windsurf.md
+│   ├── 31.16-ai-assisted-development-best-practices.md
+│   ├── 31.17-ai-generated-code-security.md
+│   ├── 31.18-ai-assisted-development-challenges.md
+│   └── 31_summary.md
 │
 ├── 32-ai-safety/
 │   ├── 32.01-prompt-injection.md
@@ -514,7 +631,9 @@ web-engineering-handbook/
 │   ├── 32.10-agent-sandboxing.md
 │   ├── 32.11-secret-management.md
 │   ├── 32.12-human-in-the-loop.md
-│   └── 32.13-ai-safety-architecture.md
+│   ├── 32.13-ai-safety-architecture.md
+│   ├── 32.14-the-ai-safety-landscape.md
+│   └── 32_summary.md
 │
 ├── 33-in-browser-ai-ml/
 │   ├── 33.01-browser-ml.md
@@ -523,7 +642,12 @@ web-engineering-handbook/
 │   ├── 33.04-model-loading.md
 │   ├── 33.05-model-optimization.md
 │   ├── 33.06-ai-performance.md
-│   └── 33.07-privacy-preserving-ai.md
+│   ├── 33.07-privacy-preserving-ai.md
+│   ├── 33.08-the-in-browser-ai-landscape.md
+│   ├── 33.09-webnn-api.md
+│   ├── 33.10-in-browser-ai-tools-and-libraries.md
+│   ├── 33.11-prompt-api.md
+│   └── 33_summary.md
 │
 ├── 34-backend-for-react-developers/
 │   ├── 34.01-nodejs.md
@@ -539,7 +663,9 @@ web-engineering-handbook/
 │   ├── 34.11-cors.md
 │   ├── 34.12-authentication.md
 │   ├── 34.13-authorization.md
-│   └── 34.14-rate-limiting.md
+│   ├── 34.14-rate-limiting.md
+│   ├── 34.15-the-backend-landscape-for-react-developers.md
+│   └── 34_summary.md
 │
 ├── 35-databases/
 │   ├── 35.01-postgresql.md
@@ -548,7 +674,12 @@ web-engineering-handbook/
 │   ├── 35.04-indexes.md
 │   ├── 35.05-transactions.md
 │   ├── 35.06-redis.md
-│   └── 35.07-nosql-fundamentals.md
+│   ├── 35.07-nosql-fundamentals.md
+│   ├── 35.08-the-database-landscape-for-react-developers.md
+│   ├── 35.09-react-plus-database-integration-patterns.md
+│   ├── 35.10-connection-pooling.md
+│   ├── 35.11-database-migrations.md
+│   └── 35_summary.md
 │
 ├── 36-backend-architecture/
 │   ├── 36.01-monolith.md
@@ -557,7 +688,11 @@ web-engineering-handbook/
 │   ├── 36.04-event-driven-architecture.md
 │   ├── 36.05-message-queues.md
 │   ├── 36.06-background-jobs.md
-│   └── 36.07-distributed-systems.md
+│   ├── 36.07-distributed-systems.md
+│   ├── 36.08-the-backend-architecture-landscape.md
+│   ├── 36.09-api-gateway.md
+│   ├── 36.10-service-mesh.md
+│   └── 36_summary.md
 │
 ├── 37-security/
 │   ├── 37.01-xss.md
@@ -572,7 +707,10 @@ web-engineering-handbook/
 │   ├── 37.10-secure-cookies.md
 │   ├── 37.11-dependency-vulnerabilities.md
 │   ├── 37.12-supply-chain-attacks.md
-│   └── 37.13-secret-exposure.md
+│   ├── 37.13-secret-exposure.md
+│   ├── 37.14-the-security-landscape.md
+│   ├── 37.15-security-headers.md
+│   └── 37_summary.md
 │
 ├── 38-web3/
 │   ├── 38.01-blockchain-fundamentals.md
@@ -582,7 +720,9 @@ web-engineering-handbook/
 │   ├── 38.05-rpc.md
 │   ├── 38.06-transaction-signing.md
 │   ├── 38.07-wallet-authentication.md
-│   └── 38.08-react-plus-web3.md
+│   ├── 38.08-react-plus-web3.md
+│   ├── 38.09-web3-fundamentals.md
+│   └── 38_summary.md
 │
 ├── 39-react-native/
 │   ├── 39.01-react-native.md
@@ -592,7 +732,9 @@ web-engineering-handbook/
 │   ├── 39.05-platform-specific-code.md
 │   ├── 39.06-push-notifications.md
 │   ├── 39.07-offline-storage.md
-│   └── 39.08-mobile-performance.md
+│   ├── 39.08-mobile-performance.md
+│   ├── 39.09-architecture.md
+│   └── 39_summary.md
 │
 ├── 40-open-source/
 │   ├── 40.01-git.md
@@ -608,7 +750,12 @@ web-engineering-handbook/
 │   ├── 40.11-monorepos.md
 │   ├── 40.12-open-source-contribution.md
 │   ├── 40.13-good-first-issues.md
-│   └── 40.14-maintainer-workflows.md
+│   ├── 40.14-maintainer-workflows.md
+│   ├── 40.15-open-source-fundamentals.md
+│   ├── 40.16-fork-clone-branch-pr-workflow.md
+│   ├── 40.17-open-source-licensing.md
+│   ├── 40.18-community-participation.md
+│   └── 40_summary.md
 │
 ├── 41-git-contribution-workflow/
 │   ├── 41.01-git-branches.md
@@ -622,7 +769,13 @@ web-engineering-handbook/
 │   ├── 41.09-github-issues.md
 │   ├── 41.10-issue-templates.md
 │   ├── 41.11-pr-templates.md
-│   └── 41.12-release-management.md
+│   ├── 41.12-release-management.md
+│   ├── 41.13-git-fundamentals.md
+│   ├── 41.14-branching-strategies.md
+│   ├── 41.15-semantic-versioning.md
+│   ├── 41.16-git-hooks.md
+│   ├── 41.17-advanced-git-tools.md
+│   └── 41_summary.md
 │
 ├── 42-commit-conventions/
 │   ├── 42.01-build.md
@@ -639,7 +792,14 @@ web-engineering-handbook/
 │   ├── 42.12-commit-footer.md
 │   ├── 42.13-breaking-change.md
 │   ├── 42.14-deprecated.md
-│   └── 42.15-revert-commits.md
+│   ├── 42.15-revert-commits.md
+│   ├── 42.16-the-commit-convention-landscape.md
+│   ├── 42.17-type.md
+│   ├── 42.18-conventional-commits-and-semver.md
+│   ├── 42.19-commitlint.md
+│   ├── 42.20-commitizen.md
+│   ├── 42.21-changelog-generation.md
+│   └── 42_summary.md
 │
 ├── 43-community-developer-skills/
 │   ├── 43.01-technical-communication.md
@@ -653,7 +813,9 @@ web-engineering-handbook/
 │   ├── 43.09-networking.md
 │   ├── 43.10-code-review.md
 │   ├── 43.11-constructive-feedback.md
-│   └── 43.12-community-contribution.md
+│   ├── 43.12-community-contribution.md
+│   ├── 43.13-the-developer-skills-landscape.md
+│   └── 43_summary.md
 │
 ├── 44-technical-decision-making/
 │   ├── 44.01-architecture-tradeoffs.md
@@ -667,7 +829,22 @@ web-engineering-handbook/
 │   ├── 44.09-rest-vs-graphql.md
 │   ├── 44.10-monolith-vs-microservices.md
 │   ├── 44.11-local-first-vs-server-first.md
-│   └── 44.12-ai-vs-deterministic-systems.md
+│   ├── 44.12-ai-vs-deterministic-systems.md
+│   ├── 44.13-the-technical-decision-landscape.md
+│   ├── 44.14-decision-framing.md
+│   ├── 44.15-the-architecture-tradeoff-analysis-method.md
+│   ├── 44.16-architecture-decision-records.md
+│   ├── 44.17-decision-matrix-and-weighted-scoring.md
+│   ├── 44.18-technology-selection.md
+│   ├── 44.19-cost-benefit-analysis.md
+│   ├── 44.20-risk-assessment.md
+│   ├── 44.21-stakeholder-management.md
+│   ├── 44.22-technical-debt-as-a-decision.md
+│   ├── 44.23-reversibility.md
+│   ├── 44.24-decision-velocity.md
+│   ├── 44.25-ai-assisted-technical-decision-making.md
+│   ├── 44.26-decision-documentation.md
+│   └── 44_summary.md
 │
 ├── 45-project-product-building/
 │   ├── 45.01-project-architecture.md
@@ -681,7 +858,9 @@ web-engineering-handbook/
 │   ├── 45.09-deployment.md
 │   ├── 45.10-monitoring.md
 │   ├── 45.11-documentation.md
-│   └── 45.12-open-source-projects.md
+│   ├── 45.12-open-source-projects.md
+│   ├── 45.13-the-product-building-landscape.md
+│   └── 45_summary.md
 │
 ├── 46-react-kolkata-community-participation/
 │   ├── 46.01-meetups.md
@@ -696,7 +875,9 @@ web-engineering-handbook/
 │   ├── 46.10-call-for-speakers.md
 │   ├── 46.11-project-parbon.md
 │   ├── 46.12-open-source-contribution.md
-│   └── 46.13-community-partnerships.md
+│   ├── 46.13-community-partnerships.md
+│   ├── 46.14-the-community-landscape.md
+│   └── 46_summary.md
 │
 ├── 47-community-platform-opportunities/
 │   ├── 47.01-developer-directory.md
@@ -715,7 +896,9 @@ web-engineering-handbook/
 │   ├── 47.14-community-q-and-a.md
 │   ├── 47.15-event-matchmaking.md
 │   ├── 47.16-qr-networking.md
-│   └── 47.17-community-newsletter.md
+│   ├── 47.17-community-newsletter.md
+│   ├── 47.18-the-community-platform-landscape.md
+│   └── 47_summary.md
 │
 ├── 48-advanced-frontier-topics/
 │   ├── 48.01-react-compiler.md
@@ -733,7 +916,9 @@ web-engineering-handbook/
 │   ├── 48.13-ai-native-frontend-architecture.md
 │   ├── 48.14-ai-safety.md
 │   ├── 48.15-observability.md
-│   └── 48.16-distributed-systems.md
+│   ├── 48.16-distributed-systems.md
+│   ├── 48.17-the-frontier-landscape.md
+│   └── 48_summary.md
 │
 ├── 49-master-project/
 │   ├── 49.01-react.md
@@ -767,7 +952,8 @@ web-engineering-handbook/
 │   ├── 49.29-performance-optimization.md
 │   ├── 49.30-security.md
 │   ├── 49.31-cloud-deployment.md
-│   └── 49.32-open-source-contribution.md
+│   ├── 49.32-open-source-contribution.md
+│   └── 49_summary.md
 │
 └── 50-next-steps/
     ├── 50.01-high-level-design.md
