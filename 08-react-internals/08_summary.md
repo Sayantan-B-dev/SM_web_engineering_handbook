@@ -20,3 +20,5 @@
 | **Hydration** | `window` in render | SSR crash |
 | **Selective hydration** | No boundaries | Whole tree waits |
 | **React scheduling** | `flushSync` in hot paths | Jank |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

@@ -32,3 +32,5 @@
 ---
 
 **The Big Rule:** CRDTs guarantee **convergence**, not **correctness of intent**. Use them for collaborative data where concurrent edits are expected - text, cursors, presence, shared maps. Do not use them for financial transactions, inventory counts, or anything requiring a single source of truth. Choose state-based for simplicity and reliability, operation-based for small messages (with reliable delivery), and delta-state for the best of both worlds. Always plan for garbage collection, tombstone TTL, and snapshot compaction. And remember: **CRDTs are difficult to design, prone to subtle bugs** - use a battle-tested library like Yjs, Automerge, or Loro rather than rolling your own.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

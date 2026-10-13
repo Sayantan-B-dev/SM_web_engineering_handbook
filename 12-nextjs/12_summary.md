@@ -23,3 +23,5 @@
 | **Revalidation** | No revalidation after mutation | Stale UI |
 | **Data Fetching** | Sequential awaits | Slow; use `Promise.all` |
 | **Deployment** | No `standalone` output | Huge Docker image |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

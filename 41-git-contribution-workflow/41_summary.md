@@ -35,3 +35,5 @@
 ---
 
 **The Big Rule:** Git is a **distributed system**. Every clone is a full repository. Treat commit history as a public API - once pushed, it's shared. Use **GitHub Flow** by default. Write **atomic, conventional commits**. Keep PRs **small and focused**. Review within **24 hours**. Use **tag-triggered releases**. Enable **pre-commit hooks** for linting and secrets scanning. And never - ever - rebase a shared branch.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

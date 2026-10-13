@@ -35,3 +35,5 @@
 ---
 
 **The Big Rule:** Test user-visible behavior, not implementation. Use MSW for network mocking. Use RTL for component tests, Vitest for unit/integration, Playwright for E2E and component-in-real-browser. Add contract tests when frontend and backend teams need to move independently.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

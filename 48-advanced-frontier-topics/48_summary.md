@@ -38,3 +38,5 @@
 ---
 
 **The Big Rule:** The frontier is **convergence, not isolation**. React Compiler eliminates manual memoization. RSC is production-ready. Concurrent React is default. WASM 3.0 ships GC and threads. SharedWorkers are in all browsers. WebRTC data channels work serverlessly via QR signaling. Local-first with SQLite WASM + PowerSync + Supabase is the new default stack. Loro is the fastest CRDT. Transformers.js v4 runs 20B models at 60 tokens/sec in the browser. A2UI v0.9 standardizes agent-to-UI communication. json-render makes generative UI practical. Intent-based architecture replaces responsive design. AI safety is system safety, not model safety. Grafana Faro + OTel is the observability stack. And edge compute belongs on routing, auth, and personalization - not database queries.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

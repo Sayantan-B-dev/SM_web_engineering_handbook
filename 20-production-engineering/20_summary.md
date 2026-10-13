@@ -40,3 +40,5 @@
 ---
 
 **The Big Rule:** Decouple deploy from release. Use content-hashed assets with immutable cache headers. Never put secrets in frontend code - use a BFF. Preview every PR. Roll back in seconds, not hours. Monitor users, not just servers. Design for failure from day one.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

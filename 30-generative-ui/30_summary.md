@@ -38,3 +38,5 @@
 ---
 
 **The Big Rule:** Generative UI is not "AI generates HTML." It's **typed component trees from streaming JSON schemas**. Define a catalog with Zod schemas. Validate every node at the stream boundary. Map catalog types to a component registry. Never use `dangerouslySetInnerHTML` on model output. Bake accessibility into the catalog. Reserve space to prevent CLS. Choose the right paradigm: **controlled** for brand-critical, **declarative** for the long tail, **open-ended** only for sandboxed, non-critical surfaces. And always treat model output as untrusted.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

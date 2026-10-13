@@ -29,3 +29,5 @@
 | **Children** | Assuming `children` is a single element | Breaks with arrays |
 | **Design** | God component (500+ lines) | Unmaintainable |
 | **Design** | Boolean prop explosion | 128 combinations |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

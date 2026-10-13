@@ -24,3 +24,5 @@
 | **TanStack Router** | No `validateSearch` | Runtime errors |
 | **TanStack Start** | No CSRF middleware | Cross-site request vulnerability |
 | **TanStack Start** | No input validation | Security vulnerability |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

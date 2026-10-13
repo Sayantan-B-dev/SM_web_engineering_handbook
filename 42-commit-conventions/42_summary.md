@@ -38,3 +38,5 @@
 ---
 
 **The Big Rule:** Commit conventions are not bureaucracy - they are **automation infrastructure**. A well-written commit message is parsed by tools, rendered in changelogs, and drives version bumps. Use **Conventional Commits** as the format. Enforce with **commitlint** and **Husky**. Guide new contributors with **Commitizen**. Mark breaking changes with **both `!` and `BREAKING CHANGE:`**. Mark deprecations with a **`Deprecation:` footer**. And never - ever - write "fix bug" and call it a commit message.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

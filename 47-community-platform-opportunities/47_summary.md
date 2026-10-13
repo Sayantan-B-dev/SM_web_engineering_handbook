@@ -44,3 +44,5 @@
 ---
 
 **The Big Rule:** A community platform is **not a website - it is persistent infrastructure for people, contributions, and connections**. React Kolkata has 11,000+ followers, a WhatsApp community, a GitHub repository, and a Luma calendar. The platform opportunity is **integration**: one identity, one profile, one contribution graph, one place where a developer's entire React Kolkata journey lives. Build the **developer directory** first - it is the foundation layer. Then layer on speaker directory, mentor directory, project showcase, event archive, talk archive, learning hub, jobs board, tech calendar, community profiles, contributor leaderboard, community badges, topic voting, community Q&A, event matchmaking, QR networking, and newsletter. And always - **verify contributions** before awarding badges or leaderboard points. AI slop must not pollute the community's reputation layer.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

@@ -38,3 +38,5 @@
 ---
 
 **The Big Rule:** Technical decision-making is **not about being right - it's about being explicit**. Frame the decision before evaluating. Weight criteria by stakeholder priority, not analyst preference. Document not just what you chose, but what you rejected and why. Tag every score with evidence. Quantify reversibility. Decentralize reversible decisions. And remember: **the most successful teams in 2026 stay pragmatic - adopting new patterns when they solve real problems, choosing stable tooling, and using AI to accelerate delivery without losing sight of fundamentals**.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

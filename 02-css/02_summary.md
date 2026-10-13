@@ -23,3 +23,5 @@
 | **Accessible UI** | `outline: none` | Keyboard users lost |
 | **Accessible UI** | Hover-only interactions | Unusable on touch |
 | **Accessible UI** | Low contrast placeholder | WCAG failure |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

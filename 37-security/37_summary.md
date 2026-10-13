@@ -37,3 +37,5 @@
 ---
 
 **The Big Rule:** Security is **defense in depth**. No single control is sufficient. React escapes JSX - but `dangerouslySetInnerHTML`, URL attributes, and DOM refs are still yours to handle. CSP is your safety net for the XSS that slips past code review. SameSite cookies are your primary CSRF defense - but state-changing GETs still bypass them. OAuth 2.1 makes PKCE mandatory and removes implicit flow. JWTs need algorithm pinning and 15-minute expiry. Tokens belong in `HttpOnly`, `Secure`, `SameSite` cookies - preferably behind a BFF. And every response needs security headers. Trust nothing. Validate everything.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

@@ -25,3 +25,5 @@
 | **Custom Hooks** | Not starting with `use` | ESLint can't enforce rules |
 | **Rules** | Conditional hook call | Corrupted state |
 | **Rules** | Early return before hooks | Hook order mismatch |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

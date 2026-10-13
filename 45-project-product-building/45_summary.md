@@ -37,3 +37,5 @@
 ---
 
 **The Big Rule:** Product building is **learning, not coding**. Validate the problem before you build. Start with a problem your customers will pay to solve. Prototype rough and rapid - flow first, details second. Keep the MVP so simple you're almost embarrassed to release it. Embed debt reduction into your development rhythm. Deploy with pre-commit hooks and rollback plans. Monitor errors, performance, and health. Document everything. And remember: **the goal of v1 is to learn, not to ship features**.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

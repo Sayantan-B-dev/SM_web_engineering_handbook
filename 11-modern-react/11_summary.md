@@ -24,3 +24,5 @@
 | **Streaming** | Fallback ≠ content layout | CLS |
 | **Hydration** | Expecting RSC to hydrate | Wrong mental model |
 | **Hydration** | `Date`/`Math.random` in Client Component | Mismatch |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

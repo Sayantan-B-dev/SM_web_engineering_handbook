@@ -34,3 +34,5 @@
 ---
 
 **The Big Rule:** Web3 in 2026 is not just speculation - it's a production stack. Use **viem + wagmi + RainbowKit + TanStack Query** for React frontends. Use **SIWE (EIP-4361)** for authentication. Use **ERC-4337 smart accounts** for new users and **EIP-7702** to bridge existing EOAs. Benchmark **RPC providers by region and tail latency**, not global averages. Check **L2BEAT stages** before bridging. Always **audit smart contracts**. And never - ever - ask users to sign raw hex.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

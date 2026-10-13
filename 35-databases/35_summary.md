@@ -39,3 +39,5 @@
 ---
 
 **The Big Rule:** PostgreSQL is the default. Add Redis for caching. Add SQLite WASM for local-first. Use connection pooling from day one. Index for your query patterns, not for every column. Keep transactions short. Use UUIDv7 for distributed systems. Always use `TIMESTAMPTZ`. Start normalized, denormalize only when measured. And never - ever - concatenate strings into SQL.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

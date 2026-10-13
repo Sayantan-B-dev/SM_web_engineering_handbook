@@ -19,3 +19,5 @@
 | **DOM** | `innerHTML +=` | Lost listeners, state |
 | **CRP** | Render-blocking JS | Blank page until loaded |
 | **CRP** | No image dimensions | CLS penalty |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

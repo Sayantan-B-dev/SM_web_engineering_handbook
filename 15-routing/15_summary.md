@@ -23,3 +23,5 @@
 | **Preloading** | No preload | "Broken button" feel |
 | **Preloading** | No `preloadDelay` | Excessive network calls |
 | **Comparison** | No evaluation before choosing | Costly migration later |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

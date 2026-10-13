@@ -33,3 +33,5 @@
 ---
 
 **The Big Rule:** Offline-first means the app works without a network. Local-first means the device is the source of truth. Use Service Workers for assets, IndexedDB for data, and a mutation queue for offline writes. Use CRDTs for collaborative editing. Always version caches, always queue mutations, always provide an offline fallback, and always reconcile optimistic updates with the server.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

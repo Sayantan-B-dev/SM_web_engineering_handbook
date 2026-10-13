@@ -34,3 +34,5 @@
 ---
 
 **The Big Rule:** Open source is **collaboration, not consumption**. Read `CONTRIBUTING.md` before you write code. Say hello before you commit. Keep PRs small and focused. Use Conventional Commits. Respect SemVer. Choose a license deliberately. Respond to review feedback within 24 hours. And if you're a maintainer: automate the pipeline, document the process, recruit co-maintainers, and **measure community health, not just velocity**.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

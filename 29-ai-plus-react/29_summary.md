@@ -37,3 +37,5 @@
 ---
 
 **The Big Rule:** The 2026 AI+React stack is **Vercel AI SDK + Zustand (or ai-sdk-zustand) + shadcn/ui (or assistant-ui)**. Stream everything. Harden incomplete Markdown during streaming. Render tool calls as typed UI cards, not raw JSON. Validate every tool argument with Zod. Require approval for destructive tools. Use generative UI (streaming JSON → Zod → component registry → React tree) instead of `dangerouslySetInnerHTML`. And always keep the model loop client-side when possible (Prompt API with cloud fallback).
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

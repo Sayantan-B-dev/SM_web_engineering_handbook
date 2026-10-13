@@ -30,3 +30,5 @@
 | **GC** | Relying on `FinalizationRegistry` for cleanup | Non-deterministic |
 | **Execution** | Blocking main thread | UI freeze |
 | **Execution** | Type instability | Deoptimization |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

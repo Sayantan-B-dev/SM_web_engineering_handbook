@@ -34,3 +34,5 @@
 ---
 
 **The Big Rule:** For React developers in 2026, the backend is not optional knowledge. Choose **Express** for brownfield, **Fastify** for performance, **NestJS** for enterprise structure. Use **REST** for public APIs, **GraphQL** for complex client composition, **tRPC** for TypeScript monorepos. Validate every input. Rate-limit every endpoint. Hash every password with Argon2id. Store tokens in `HttpOnly` cookies, not `localStorage`. Use `SameSite=Lax` for CSRF protection. And always - always - validate on the server.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

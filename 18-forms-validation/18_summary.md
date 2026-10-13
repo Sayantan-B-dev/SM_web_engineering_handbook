@@ -28,3 +28,5 @@
 ---
 
 **The Big Rule:** The 2026 default stack is **React Hook Form + Zod + `zodResolver`**. Use TanStack Form when TypeScript inference is the top priority for deeply nested forms. Use Conform when Server Actions and progressive enhancement are the architecture. Always validate on the server.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

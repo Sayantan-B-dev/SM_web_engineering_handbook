@@ -26,3 +26,5 @@
 | **Scalability** | Onboarding > 2 weeks | Architecture or docs failing |
 | **Multi-Team** | No platform team | Reinvention everywhere |
 | **Multi-Team** | No ADRs | Same debates every 6 months |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

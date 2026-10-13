@@ -17,3 +17,5 @@
 | **Derived state** | Duplicated computed values | Sync bugs |
 | **State ownership** | Global state for local UI | Unnecessary re-renders |
 | **Composition** | Deep HOC chains | Wrapper hell |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

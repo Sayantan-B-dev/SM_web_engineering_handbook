@@ -29,3 +29,5 @@
 ---
 
 **The Big Rule:** React Kolkata is **not a spectator sport**. The community's value is created by **participation** - speaking at a lightning talk, mentoring a Project Parbon finalist, contributing to the open-source repository, organizing a workshop, or simply showing up to a meetup with a specific question. Communities like React Kolkata, React Siliguri, and West Bengal Tech exist because **technical talent exists everywhere, but structured opportunities don't**. Be part of the structure.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

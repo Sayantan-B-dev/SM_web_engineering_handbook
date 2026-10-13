@@ -43,3 +43,5 @@
 ---
 
 **The Big Rule:** AI safety in 2026 is **system safety, not model safety**. The model will be fooled. Design for it. Assume the model is not trusted, the network is not trusted, and the user is not trusted. Enforce boundaries independently of the agent. Validate every tool input and output. Sandbox every execution. Decompose privileges into stages. Require approval for destructive actions. Log everything. And never - ever - put secrets in a system prompt.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

@@ -28,3 +28,5 @@
 ---
 
 **The Big Rule:** React Native in 2026 is **New Architecture or nothing**. The legacy bridge is gone. Hermes V1 is the only engine. TurboModules load lazily. Fabric renders concurrently. Use **FlashList with `getItemLayout`** for lists. Use **Worklets** for heavy computation. Use **Expo Router** for file-based routing (SDK 56+). Validate dependencies with `npx expo-doctor`. Split platform-specific code into `.ios.tsx` / `.android.tsx` files. And never - ever - try to disable the New Architecture.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

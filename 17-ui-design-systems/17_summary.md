@@ -30,3 +30,5 @@
 ---
 
 **The Big Rule:** Build tokens first, then primitives, then components. Use headless primitives (Radix/Base UI) for behavior. Style with Tailwind or CSS Modules. Ship accessibility at v1. Theme at the semantic token tier only.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

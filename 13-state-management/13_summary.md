@@ -29,3 +29,5 @@
 - **Server state** → React Query / SWR / RTK Query
 - **Global client state** → Zustand / Jotai / Redux (in that order of preference)
 - **Form state** → React Hook Form
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

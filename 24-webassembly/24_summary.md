@@ -17,3 +17,5 @@
 
 ### The Big Rule
 > WebAssembly is a **compilation target for compute-intensive workloads**, not a JavaScript replacement. Use it when you have proven, measured performance bottlenecks that JS cannot solve. Always benchmark before and after. Always run it in a Web Worker. Always use Transferable Objects for large buffers. And always remember: **interop is the bottleneck, not the computation**.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

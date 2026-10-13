@@ -40,3 +40,5 @@
 ---
 
 **The Big Rule:** AI-assisted development is not about writing more code faster. It's about **shifting human effort from generation to verification**. The 30% code increase with zero additional issues resolved is the defining data point of 2026. Use AI for generation, but invest in review, security, and architecture. Keep specs before code. Break work into small chunks. Maintain a rules file. Do a security pass on every AI-generated PR. Never merge code you cannot explain line by line. And remember: **the agent's claim that its code works counts only when the running app confirms it.**
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

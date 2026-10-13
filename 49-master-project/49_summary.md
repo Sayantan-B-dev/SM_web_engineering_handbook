@@ -54,3 +54,5 @@ The UI is a convenience. Server actions, route handlers and the socket upgrade a
 Build the smallest version that still has all five properties. A polished CRUD app without convergence, offline support and server-side authorisation is not a smaller Atlas - it is a different, easier project that teaches none of the lessons this one does.
 
 Reach for the hard part first: get two clients editing one document offline, then everything else has a place to attach.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

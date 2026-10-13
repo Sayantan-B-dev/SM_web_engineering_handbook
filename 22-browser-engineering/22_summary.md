@@ -28,3 +28,5 @@
 ---
 
 **The Big Rule:** The browser is a multi-process, multi-threaded operating system. The main thread does everything - JS, style, layout, paint, GC - and must never be blocked for more than 50ms. The compositor thread handles `transform` and `opacity` animations independently. Move CPU work to Web Workers. Use HTTP/3 + QUIC. Store structured data in IndexedDB, not `localStorage`. Lock down security with CSP, COOP, and COEP. And always provide fallbacks for frontier APIs.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

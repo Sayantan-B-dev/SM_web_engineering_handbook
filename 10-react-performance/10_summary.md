@@ -22,3 +22,5 @@
 | **CPU bottlenecks** | 10K list items rendered | Seconds of jank |
 | **Network bottlenecks** | Fetch on every keystroke | CPU + network exhaustion |
 | **Core Web Vitals** | CSR above the fold | LCP > 4s |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

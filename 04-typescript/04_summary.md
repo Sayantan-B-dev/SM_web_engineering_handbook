@@ -30,3 +30,5 @@
 | **Advanced Generics** | Branded types without validation | Unsafe cast |
 | **Type-Safe APIs** | `as T` without validation | Runtime crashes |
 | **Type-Safe APIs** | Unvalidated env vars | Production crash |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

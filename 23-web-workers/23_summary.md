@@ -30,3 +30,5 @@
 ---
 
 **The Big Rule:** Use Web Workers for tasks **>100ms** that don't need DOM access. Use **Transferable Objects** for large binary data (zero-copy). Keep the **main thread as the authoritative state holder**. Use a **worker pool** to avoid spawn overhead. Use **OffscreenCanvas** for rendering offload. Always **profile** before and after - workers are not always faster.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

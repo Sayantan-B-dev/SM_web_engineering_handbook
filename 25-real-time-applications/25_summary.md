@@ -33,3 +33,5 @@
 ---
 
 **The Big Rule:** Start with SSE for server-to-client. Use WebSocket for bidirectional. Use WebRTC only for P2P. Always implement exponential backoff **with jitter** (500ms base, 30s cap, ±20% jitter). Always send heartbeats every 30s. Always assign sequence numbers for replay. Always enforce `maxBackpressure`. And always keep the main thread as the authoritative state holder.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

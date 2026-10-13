@@ -27,3 +27,5 @@
 ---
 
 **The Big Rule:** In-browser AI is production-ready in 2026, but the **backend choice is the single most consequential decision**. WebGPU for large models (>100M params), WASM for small models (<100M params) and single-pass tasks. Always quantize (INT8, Q4F16). Always cache models (Cache API, OPFS). Always offload to a Web Worker. Always feature-detect and provide fallback (WebGPU → WebGL → WASM → Prompt API). And always measure - the difference between the right and wrong backend can be 10-15×.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

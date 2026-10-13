@@ -37,3 +37,5 @@
 ---
 
 **The Big Rule:** LLMs are probabilistic text generators, not databases or reasoning engines. Tokens are the currency - count them, budget them, and compact them. Embeddings power semantic search - cache them, use hybrid search, and rerank. RAG grounds LLMs in your data - chunk carefully, evaluate rigorously, and always rerank. Tool calling enables actions - validate arguments, handle errors, and limit tool count. Agents are loops - cap steps, add guardrails, and observe everything. And always stream long responses.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

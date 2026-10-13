@@ -35,3 +35,5 @@
 ---
 
 **The Big Rule:** Developer skills are **not soft skills**. They are the hard skills of explaining, deciding, presenting, and contributing. Every developer can write code. The ones who get promoted, lead projects, and build lasting careers are the ones who can **translate complexity into clarity, make decisions with transparency, present with confidence, and contribute beyond their own commits**. Practice these skills deliberately - the same way you practice writing code.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

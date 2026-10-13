@@ -35,3 +35,5 @@
 ---
 
 **The Big Rule:** Default to a **modular monolith**. Extract microservices only when organizational signals demand it. Use **event-driven architecture** for async workloads, but always with transactional outbox, schema evolution, and idempotency. Use **SQS/RabbitMQ** for task queues, **Kafka** for event streaming. Use **BullMQ** for simple jobs, **Temporal** for long-running workflows. API gateway for north-south, service mesh for east-west. And always - **measure, don't guess**.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

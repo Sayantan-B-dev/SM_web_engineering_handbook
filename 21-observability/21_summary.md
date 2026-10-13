@@ -41,3 +41,5 @@
 ---
 
 **The Big Rule:** Observability is not just monitoring. Logs, metrics, traces, and user actions must connect end-to-end. Always propagate trace context browser → backend. Always filter PII. Always tag releases. Prioritize by user impact, not error volume. And never let observability break the product.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

@@ -60,3 +60,5 @@ Pick the next one that is closest to a problem you actually have. Learn it by so
 ---
 
 This is the end of the numbered syllabus. What remains is practice.
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*

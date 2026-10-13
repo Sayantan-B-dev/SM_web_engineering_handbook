@@ -24,3 +24,5 @@
 | **Manual memoization** | Removing before enabling compiler | Performance regression |
 | **Performance** | No benchmarking | Unknown impact |
 | **Performance** | Not checking "Memo ✨" badge | Silent skip undetected |
+
+*Educational use only - AI-assisted content. See [DISCLAIMER.md](../DISCLAIMER.md) and [LICENSE.md](../LICENSE.md).*
