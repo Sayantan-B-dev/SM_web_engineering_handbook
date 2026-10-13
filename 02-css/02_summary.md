@@ -1,4 +1,4 @@
-# 2. CSS — Complete Deep Dive
+# 2. CSS - Complete Deep Dive
 
 ## Summary: CSS Deal-Breaker Checklist
 
@@ -23,7 +23,3 @@
 | **Accessible UI** | `outline: none` | Keyboard users lost |
 | **Accessible UI** | Hover-only interactions | Unusable on touch |
 | **Accessible UI** | Low contrast placeholder | WCAG failure |
-
----
-
-Next topic? Send **3. JavaScript** and I'll give the same complete treatment — every subtopic, syntax, real-world examples, tricks, and deal-breakers.

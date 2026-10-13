@@ -1,4 +1,4 @@
-# 4. TYPESCRIPT — Complete Deep Dive
+# 4. TYPESCRIPT - Complete Deep Dive
 
 ## Summary: TypeScript Deal-Breaker Checklist
 
@@ -30,7 +30,3 @@
 | **Advanced Generics** | Branded types without validation | Unsafe cast |
 | **Type-Safe APIs** | `as T` without validation | Runtime crashes |
 | **Type-Safe APIs** | Unvalidated env vars | Production crash |
-
----
-
-Next topic? Send **5. React Fundamentals** and I'll give the same complete treatment.

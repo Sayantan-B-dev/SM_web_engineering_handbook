@@ -1,4 +1,4 @@
-# 1. WEB FOUNDATIONS — Complete Deep Dive
+# 1. WEB FOUNDATIONS - Complete Deep Dive
 
 ## Summary: WEB FOUNDATIONS Deal-Breaker Checklist
 
@@ -19,7 +19,3 @@
 | **DOM** | `innerHTML +=` | Lost listeners, state |
 | **CRP** | Render-blocking JS | Blank page until loaded |
 | **CRP** | No image dimensions | CLS penalty |
-
----
-
-Next topic? Send **2. CSS** or any other numbered topic from your list and I'll give the same treatment.

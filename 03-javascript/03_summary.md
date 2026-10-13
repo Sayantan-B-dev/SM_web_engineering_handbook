@@ -1,4 +1,4 @@
-# 3. JAVASCRIPT — Complete Deep Dive
+# 3. JAVASCRIPT - Complete Deep Dive
 
 ## Summary: JavaScript Deal-Breaker Checklist
 
@@ -30,7 +30,3 @@
 | **GC** | Relying on `FinalizationRegistry` for cleanup | Non-deterministic |
 | **Execution** | Blocking main thread | UI freeze |
 | **Execution** | Type instability | Deoptimization |
-
----
-
-Next topic? Send **4. TypeScript** and I'll give the same complete treatment.
